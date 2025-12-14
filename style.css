@@ -375,7 +375,7 @@ button, .icon-btn, .activity-btn, .gift-box, a, input {
 #cake-container {
     position: absolute;
     bottom: 20px;
-    left: 50%; /* Adjusted for centering */
+    left: 55%;
     transform: translateX(-50%) translateY(100%);
     opacity: 0;
     transition: transform 1.0s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 1s ease;
@@ -390,15 +390,14 @@ button, .icon-btn, .activity-btn, .gift-box, a, input {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
 }
-
 /* ======================= CAKE STYLES (NEW SVG) ======================= */
 
 .cake-candle {
     background: #ffffff;
     border-radius: 10px;
     position: absolute;
-    bottom: 45px; 
-    left: 50%;
+    bottom: 130px; 
+    left: 44%;
     margin-left: -2.5px;
     width: 5px;
     height: 35px;
